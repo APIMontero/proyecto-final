@@ -1,11 +1,13 @@
 import "../css/identificacion.css";
+
 export function Identificacion(props) {
-  let imagenes = `../img/`;
-  let nombreCompleto = props.nombre + " " + props.apellidos;
+  let nombreCompleto = props.nombres + " " + props.apellidos;
+  let imgLocale = "http://localhost:3000/img/";
   return (
     <div className="card__nombre">
+      {" "}
       <img
-        src={require(`${imagenes}${props.run}.jpg`).default}
+        src={`${imgLocale}${props.run}.jpg`}
         alt={`Imagen de ${nombreCompleto}`}
       />{" "}
       <h2>

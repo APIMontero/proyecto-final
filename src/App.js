@@ -1,8 +1,12 @@
-import { React } from "react";
-import { ShowAlumnos } from "./components/mostrarAlumnos";
-
+import { ShowAlumnos } from "./components/mostrarAlumnos.jsx";
+import "./css/estilos.css";
 const App = () => {
-  return <ShowAlumnos />;
+  return (
+    <>
+      {" "}
+      <ShowAlumnos />{" "}
+    </>
+  );
 };
 
 export default App;
