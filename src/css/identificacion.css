@@ -1,0 +1,24 @@
+/*Estilos para componente Identificacion*/
+
+.card__perfil {
+  width: 310px;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgb(201, 201, 201);
+  border: solid rgba(3, 133, 255, 0) 2px;
+  border-radius: 10px;
+}
+
+.card__nombre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+img {
+  width: 140px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgb(216, 216, 216);
+  transform: rotate(-30deg);
+  transition: all 0.3s;
+}
