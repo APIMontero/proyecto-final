@@ -1,10 +1,9 @@
 import React from "react";
 import datAlumno from "../data/alumnos.json";
-import { Cabecera } from "./header";
-//import { TarjetaAlumno } from "./tarjetaAlumno.jsx";
+import { Cabecera } from "./header.jsx";
 import { Identificacion } from "./identificacion.jsx";
 import { Promocion } from "./promocion.jsx";
-
+import "../css/estilos.css";
 export const ShowAlumnos = () => {
   let data = datAlumno;
   return (
