@@ -26,7 +26,7 @@ export const ShowAlumnos = () => {
               />{" "}
               <hr />
               <div className="card__button">
-                <a className="enlace" href="#">
+                <a className="enlace" href="#top">
                   Subir{" "}
                 </a>{" "}
               </div>{" "}
