@@ -1,4 +1,4 @@
-import "../css/identificacion.css";
+import "../css/estilos.css";
 
 export function Identificacion(props) {
   let nombreCompleto = props.nombres + " " + props.apellidos;

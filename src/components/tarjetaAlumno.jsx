@@ -1,4 +1,4 @@
-import "../css/alumnos.css";
+import "../css/estilos.css";
 import { Identificacion } from "./identificacion.jsx";
 import { Promocion } from "./promocion.jsx";
 export function TarjetaAlumno(props) {

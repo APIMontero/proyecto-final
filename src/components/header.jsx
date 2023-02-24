@@ -1,4 +1,4 @@
-import "../css/cabecera.css";
+import "../css/estilos.css";
 export function Cabecera() {
   return (
     <>

@@ -1,8 +1,8 @@
-import "../css/promocion.css";
+import "../css/estilos.css";
 export function Promocion(props) {
   /*
-                  props: promedio,agnoEscolar, esPromovido:si promedio >=4.0, contrario No es promovido
-                */
+                    props: promedio,agnoEscolar, esPromovido:si promedio >=4.0, contrario No es promovido
+                  */
   let esPromovido =
     props.promedio >= 4.0 ? "ha sido promovido" : "no ha sido promovido";
   return (
