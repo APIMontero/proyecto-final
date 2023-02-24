@@ -1,9 +1,9 @@
 import "../css/cabecera.css";
-export function Cabecera(props) {
+export function Cabecera() {
   return (
     <>
       {" "}
-      <div className="header-app">
+      <div className="header-app" id="cabecera">
         <h1> Alumnos destacados del curso </h1>{" "}
         <p className="descripcion">
           {" "}

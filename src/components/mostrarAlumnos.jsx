@@ -1,32 +1,38 @@
 import React from "react";
+import "../css/estilos.css";
 import datAlumno from "../data/alumnos.json";
 import { Cabecera } from "./header.jsx";
 import { Identificacion } from "./identificacion.jsx";
 import { Promocion } from "./promocion.jsx";
-import "../css/estilos.css";
 export const ShowAlumnos = () => {
-  let data = datAlumno;
+  let data = [];
+  data = datAlumno;
   return (
     <>
-      {" "}
       <Cabecera />{" "}
       {data.map((item) => (
-        <div key={item.id}>
-          <section className="card">
-            {" "}
-            <Identificacion
-              run={item.run}
-              apellidos={item.apellidos}
-              nombres={item.nombres}
-            />{" "}
-            <hr />{" "}
-            <Promocion
-              agnoEscolar={item.agnoEscolar}
-              promedio={item.promedio}
-            />{" "}
-            <hr />
-          </section>{" "}
-        </div>
+        <section className="card">
+          <div key={item.id}>
+            <div className="card__perfil">
+              <Identificacion
+                run={item.run}
+                apellidos={item.apellidos}
+                nombres={item.nombres}
+              />{" "}
+              <hr />
+              <Promocion
+                agnoEscolar={item.agnoEscolar}
+                promedio={item.promedio}
+              />{" "}
+              <hr />
+              <div className="card__button">
+                <a className="enlace" href="#">
+                  Subir{" "}
+                </a>{" "}
+              </div>{" "}
+            </div>{" "}
+          </div>{" "}
+        </section>
       ))}{" "}
     </>
   );

@@ -1,10 +1,9 @@
 import { ShowAlumnos } from "./components/mostrarAlumnos.jsx";
-import "./css/estilos.css";
+//import "./css/estilos.css";
 const App = () => {
   return (
     <>
-      {" "}
-      <ShowAlumnos />{" "}
+      <ShowAlumnos />
     </>
   );
 };
