@@ -1,1 +1,65 @@
-[{"id":70,"nombres":"Juan De Dios","apellidos":"Urrutia Urbina","run":"21125301-0","promedio":5,"agnoEscolar":2022},{"id":71,"nombres":"Maria","apellidos":"Fredes Molina","run":"20105499-8","promedio":6.3,"agnoEscolar":2022},{"id":72,"nombres":"Milton","apellidos":"Mejías Inistrosa","run":"22785654-1","promedio":4.8,"agnoEscolar":2022},{"id":73,"nombres":"Mario Hernán","apellidos":"Guerra Bustamante","run":"20335254-K","promedio":4.9,"agnoEscolar":2022},{"id":74,"nombres":"Maria Cristina","apellidos":"Aguilera Tapia","run":"19897452-0","promedio":6.8,"agnoEscolar":2022}]
+[
+  {
+    "id": 70,
+    "nombres": "Juan De Dios",
+    "apellidos": "Urrutia Urbina",
+    "run": "21125301-0",
+    "genero": "M",
+    "promedio": 5,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 71,
+    "nombres": "Maria",
+    "apellidos": "Fredes Molina",
+    "run": "20105499-8",
+    "genero": "F",
+    "promedio": 6.3,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 72,
+    "nombres": "Milton",
+    "apellidos": "Mejías Inistrosa",
+    "run": "22785654-1",
+    "genero": "M",
+    "promedio": 4.8,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 73,
+    "nombres": "Mario Hernán",
+    "apellidos": "Guerra Bustamante",
+    "run": "20335254-K",
+    "genero": "M",
+    "promedio": 4.9,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 74,
+    "nombres": "Maria Cristina",
+    "apellidos": "Aguilera Tapia",
+    "run": "19897452-0",
+    "genero": "F",
+    "promedio": 6.8,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 75,
+    "nombres": "Miguel Alfonso",
+    "apellidos": "Prat Grau",
+    "run": "23558440-8",
+    "genero": "M",
+    "promedio": 3.9,
+    "agnoEscolar": 2022
+  },
+  {
+    "id": 76,
+    "nombres": "Mercedes Antonia",
+    "apellidos": "Jérez Monsalve",
+    "run": "15444321-K",
+    "genero": "F",
+    "promedio": 3.7,
+    "agnoEscolar": 2022
+  }
+]

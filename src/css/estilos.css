@@ -11,6 +11,8 @@ h1 {
   text-align: center;
   padding: 10px;
   color: rgb(255, 255, 255);
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
 }
 
 h2 {
@@ -117,4 +119,14 @@ body {
   line-height: 1.5em;
   padding-top: 80px;
   /* Relleno superior igual a la altura de la cabecera*/
+}
+
+.Promovido {
+  color: blue;
+  font-size: 1.5em;
+}
+
+.NoPromovido {
+  color: red;
+  font-size: 1.5em;
 }

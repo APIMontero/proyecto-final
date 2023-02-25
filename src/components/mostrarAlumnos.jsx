@@ -35,8 +35,23 @@ export const ShowAlumnos = () => {
   //Forma rápida ✈ para leer la data desde el archivo
   // Un arreglo
   let data = [];
-  //data acá es una copia de alumnos.json
+  //data acá es una copia de alumnos.json y recorrerla, sinó esta es la manera:🌅
   data = ObtenerAlumnos();
+  /* Objeto para representar un resumen por alerta o un mensaje emergente al final
+     Caracteristica para version 2.0.0, ya que debo usar enrutamiento para ir a otra
+     página web...Pienso en un boton...o un enlace tipo boton como el de las tarjetas 🤔
+ /*  let resumenAlumnos = {
+    promedio: 0,
+    totalAlumnos: 0,
+    promovidos: 0,
+    noPromovidos: 0,
+    hombres: 0,
+    mujeres: 0,
+    maxima: { nombre: "", nota: 0 },
+    minima: { nombre: "", nota: 0 },
+  }; */
+  //let sumatoria = 0;
+  /* data.map((item, indice) => item)); ...*/
   return (
     <>
       <Cabecera />{" "}
@@ -52,6 +67,7 @@ export const ShowAlumnos = () => {
             <Promocion
               agnoEscolar={item.agnoEscolar}
               promedio={item.promedio}
+              genero={item.genero}
             />{" "}
             <hr />
             <div className="card__button">
