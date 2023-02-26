@@ -1,3 +1,15 @@
+# Spanish
+
+## Es tu primera ves 
+
+Accede a la carpeta principal y luego a una terminal, escribe en ella:  
+
+### npm install
+
+Esto initalará los modulos necesarios, creando una carpeta nueva y actualizando el repositorio completo.
+
+Luego sigue este tutorial:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
