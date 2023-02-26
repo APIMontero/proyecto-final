@@ -6,7 +6,7 @@ Accede a la carpeta principal y luego a una terminal, escribe en ella:
 
 ### npm install
 
-Esto initalará los modulos necesarios, creando una carpeta nueva y actualizando el repositorio completo.
+Esto instalará los módulos necesarios y requeridos, creando una carpeta nueva y, actualizando el repositorio completo.
 
 Luego sigue este tutorial:
 
