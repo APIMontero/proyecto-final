@@ -1,6 +1,6 @@
 # Spanish
 
-## Es tu primera ves 
+## ¿Es tu primera vez?
 
 Accede a la carpeta principal y luego a una terminal, escribe en ella:  
 
